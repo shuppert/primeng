@@ -2,8 +2,8 @@ import { ChangeDetectionStrategy, ChangeDetectorRef, Component } from '@angular/
 import { Code } from '@domain/code';
 import { Product } from '@domain/product';
 import { ProductService } from '@service/productservice';
-import { MessageService } from 'primeng/api';
-import { TableRowCollapseEvent, TableRowExpandEvent } from 'primeng/table';
+import { MessageService } from '@shuppert/primeng/api';
+import { TableRowCollapseEvent, TableRowExpandEvent } from '@shuppert/primeng/table';
 
 @Component({
     selector: 'row-expansion-doc',
@@ -294,16 +294,16 @@ export class RowExpansionDoc {
     </p-table>
 </div>`,
         typescript: `import { Component, OnInit } from '@angular/core';
-import { TableModule } from 'primeng/table';
+import { TableModule } from '@shuppert/primeng/table';
 import { Product } from '@domain/product';
-import { TagModule } from 'primeng/tag';
-import { RatingModule } from 'primeng/rating';
+import { TagModule } from '@shuppert/primeng/tag';
+import { RatingModule } from '@shuppert/primeng/rating';
 import { CommonModule } from '@angular/common';
-import { ButtonModule } from 'primeng/button';
+import { ButtonModule } from '@shuppert/primeng/button';
 import { ProductService } from '@service/productservice';
-import { MessageService } from 'primeng/api';
-import { ToastModule } from 'primeng/toast';
-import { TableRowCollapseEvent, TableRowExpandEvent } from 'primeng/table';
+import { MessageService } from '@shuppert/primeng/api';
+import { ToastModule } from '@shuppert/primeng/toast';
+import { TableRowCollapseEvent, TableRowExpandEvent } from '@shuppert/primeng/table';
 
 @Component({
     selector: 'table-row-expansion-demo',

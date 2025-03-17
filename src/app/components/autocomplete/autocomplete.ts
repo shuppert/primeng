@@ -28,21 +28,21 @@ import {
     ViewEncapsulation
 } from '@angular/core';
 import { ControlValueAccessor, NG_VALUE_ACCESSOR } from '@angular/forms';
-import { OverlayOptions, OverlayService, PrimeNGConfig, PrimeTemplate, SharedModule, TranslationKeys } from 'primeng/api';
-import { AutoFocusModule } from 'primeng/autofocus';
-import { ButtonModule } from 'primeng/button';
-import { ConnectedOverlayScrollHandler, DomHandler } from 'primeng/dom';
-import { InputTextModule } from 'primeng/inputtext';
-import { Overlay, OverlayModule } from 'primeng/overlay';
-import { RippleModule } from 'primeng/ripple';
-import { Scroller, ScrollerModule } from 'primeng/scroller';
-import { ScrollerOptions } from 'primeng/api';
-import { ObjectUtils, UniqueComponentId } from 'primeng/utils';
-import { TimesCircleIcon } from 'primeng/icons/timescircle';
-import { SpinnerIcon } from 'primeng/icons/spinner';
-import { TimesIcon } from 'primeng/icons/times';
-import { ChevronDownIcon } from 'primeng/icons/chevrondown';
-import { Nullable, VoidListener } from 'primeng/ts-helpers';
+import { OverlayOptions, OverlayService, PrimeNGConfig, PrimeTemplate, SharedModule, TranslationKeys } from '@shuppert/primeng/api';
+import { AutoFocusModule } from '@shuppert/primeng/autofocus';
+import { ButtonModule } from '@shuppert/primeng/button';
+import { ConnectedOverlayScrollHandler, DomHandler } from '@shuppert/primeng/dom';
+import { InputTextModule } from '@shuppert/primeng/inputtext';
+import { Overlay, OverlayModule } from '@shuppert/primeng/overlay';
+import { RippleModule } from '@shuppert/primeng/ripple';
+import { Scroller, ScrollerModule } from '@shuppert/primeng/scroller';
+import { ScrollerOptions } from '@shuppert/primeng/api';
+import { ObjectUtils, UniqueComponentId } from '@shuppert/primeng/utils';
+import { TimesCircleIcon } from '@shuppert/primeng/icons/timescircle';
+import { SpinnerIcon } from '@shuppert/primeng/icons/spinner';
+import { TimesIcon } from '@shuppert/primeng/icons/times';
+import { ChevronDownIcon } from '@shuppert/primeng/icons/chevrondown';
+import { Nullable, VoidListener } from '@shuppert/primeng/ts-helpers';
 import { AutoCompleteCompleteEvent, AutoCompleteDropdownClickEvent, AutoCompleteLazyLoadEvent, AutoCompleteSelectEvent, AutoCompleteUnselectEvent } from './autocomplete.interface';
 
 export const AUTOCOMPLETE_VALUE_ACCESSOR: any = {

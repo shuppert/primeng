@@ -19,17 +19,17 @@ import {
     ViewEncapsulation
 } from '@angular/core';
 import { NG_VALUE_ACCESSOR } from '@angular/forms';
-import { OverlayOptions, OverlayService, PrimeNGConfig, PrimeTemplate, ScrollerOptions, SharedModule, TreeNode } from 'primeng/api';
-import { DomHandler } from 'primeng/dom';
-import { ChevronDownIcon } from 'primeng/icons/chevrondown';
-import { SearchIcon } from 'primeng/icons/search';
-import { TimesIcon } from 'primeng/icons/times';
-import { Overlay, OverlayModule } from 'primeng/overlay';
-import { RippleModule } from 'primeng/ripple';
-import { Tree, TreeFilterEvent, TreeModule, TreeNodeSelectEvent, TreeNodeUnSelectEvent } from 'primeng/tree';
-import { ObjectUtils, UniqueComponentId } from 'primeng/utils';
-import { Nullable } from 'primeng/ts-helpers';
-import { AutoFocusModule } from 'primeng/autofocus';
+import { OverlayOptions, OverlayService, PrimeNGConfig, PrimeTemplate, ScrollerOptions, SharedModule, TreeNode } from '@shuppert/primeng/api';
+import { DomHandler } from '@shuppert/primeng/dom';
+import { ChevronDownIcon } from '@shuppert/primeng/icons/chevrondown';
+import { SearchIcon } from '@shuppert/primeng/icons/search';
+import { TimesIcon } from '@shuppert/primeng/icons/times';
+import { Overlay, OverlayModule } from '@shuppert/primeng/overlay';
+import { RippleModule } from '@shuppert/primeng/ripple';
+import { Tree, TreeFilterEvent, TreeModule, TreeNodeSelectEvent, TreeNodeUnSelectEvent } from '@shuppert/primeng/tree';
+import { ObjectUtils, UniqueComponentId } from '@shuppert/primeng/utils';
+import { Nullable } from '@shuppert/primeng/ts-helpers';
+import { AutoFocusModule } from '@shuppert/primeng/autofocus';
 import { TreeSelectNodeCollapseEvent, TreeSelectNodeExpandEvent } from './treeselect.interface';
 
 export const TREESELECT_VALUE_ACCESSOR: any = {

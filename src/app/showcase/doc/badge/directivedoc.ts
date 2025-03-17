@@ -20,7 +20,7 @@ export class DirectiveDoc {
     <i class="pi pi-bell text-3xl" pBadge value="2"></i>
 </div>`,
         typescript: `import { Component } from '@angular/core';
-import { BadgeModule } from 'primeng/badge';
+import { BadgeModule } from '@shuppert/primeng/badge';
 
 @Component({
     selector: 'badge-directive-demo',

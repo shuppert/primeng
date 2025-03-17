@@ -57,7 +57,7 @@ export class VerticalDoc {
 </div>`,
 
         typescript: `import { Component } from '@angular/core';
-import { SplitterModule } from 'primeng/splitter';   
+import { SplitterModule } from '@shuppert/primeng/splitter';   
 
 @Component({
     selector: 'splitter-vertical-demo',

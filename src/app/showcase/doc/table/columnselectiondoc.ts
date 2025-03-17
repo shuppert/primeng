@@ -1,5 +1,5 @@
 import { ChangeDetectionStrategy, ChangeDetectorRef, Component } from '@angular/core';
-import { MessageService } from 'primeng/api';
+import { MessageService } from '@shuppert/primeng/api';
 import { Code } from '@domain/code';
 import { Product } from '@domain/product';
 import { ProductService } from '@service/productservice';
@@ -122,11 +122,11 @@ export class ColumnSelectionDoc {
         typescript: `import { Component, OnInit } from '@angular/core';
 import { Product } from '@domain/product';
 import { ProductService } from '@service/productservice';
-import { MessageService } from 'primeng/api';
-import { ButtonModule } from 'primeng/button';
-import { RippleModule } from 'primeng/ripple';
-import { ToastModule } from 'primeng/toast';
-import { TableModule } from 'primeng/table';
+import { MessageService } from '@shuppert/primeng/api';
+import { ButtonModule } from '@shuppert/primeng/button';
+import { RippleModule } from '@shuppert/primeng/ripple';
+import { ToastModule } from '@shuppert/primeng/toast';
+import { TableModule } from '@shuppert/primeng/table';
 
 @Component({
     selector: 'table-column-selection-demo',

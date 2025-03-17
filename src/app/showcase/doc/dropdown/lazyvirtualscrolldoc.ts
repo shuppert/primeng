@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { ScrollerOptions, SelectItem } from 'primeng/api';
+import { ScrollerOptions, SelectItem } from '@shuppert/primeng/api';
 import { Code } from '@domain/code';
 
 @Component({
@@ -73,10 +73,10 @@ export class LazyVirtualScrollDoc {
         [virtualScrollOptions]="options" />
 </div>`,
 
-        typescript: `import { SelectItem } from 'primeng/api';
+        typescript: `import { SelectItem } from '@shuppert/primeng/api';
 import { Component } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { DropdownModule } from 'primeng/dropdown';
+import { DropdownModule } from '@shuppert/primeng/dropdown';
 
 @Component({
     selector: 'dropdown-lazy-virtualscroll-demo',

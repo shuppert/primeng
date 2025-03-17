@@ -65,9 +65,9 @@ export class BasicDoc {
 
         typescript: `import { Component } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { InputGroupModule } from 'primeng/inputgroup';
-import { InputGroupAddonModule } from 'primeng/inputgroupaddon';
-import { InputTextModule } from 'primeng/inputtext';
+import { InputGroupModule } from '@shuppert/primeng/inputgroup';
+import { InputGroupAddonModule } from '@shuppert/primeng/inputgroupaddon';
+import { InputTextModule } from '@shuppert/primeng/inputtext';
 
 @Component({
     selector: 'input-group-basic-demo',

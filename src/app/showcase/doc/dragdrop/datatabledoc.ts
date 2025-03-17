@@ -251,10 +251,10 @@ export class DataTableDoc implements OnInit {
         typescript: `import { Component, OnInit } from '@angular/core';
 import { Product } from '@domain/product';
 import { ProductService } from '@service/productservice';
-import { DragDropModule } from 'primeng/dragdrop';
-import { TableModule } from 'primeng/table';
+import { DragDropModule } from '@shuppert/primeng/dragdrop';
+import { TableModule } from '@shuppert/primeng/table';
 import { CommonModule } from '@angular/common';
-import { TagModule } from 'primeng/tag';
+import { TagModule } from '@shuppert/primeng/tag';
 
 @Component({
     selector: 'drag-drop-data-table-demo',

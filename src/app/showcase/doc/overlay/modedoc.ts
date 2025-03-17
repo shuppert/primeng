@@ -14,7 +14,7 @@ import { Code } from '@domain/code';
 export class ModeDoc {
     code: Code = {
         typescript: `
-import { PrimeNGConfig, OverlayOptions } from 'primeng/api';
+import { PrimeNGConfig, OverlayOptions } from '@shuppert/primeng/api';
 
 @Component({
     selector: 'app-root',
@@ -33,7 +33,7 @@ export class AppComponent implements OnInit {
     };
 
     code2: Code = {
-        basic: `import { PrimeNGConfig, OverlayOptions, ResponsiveOverlayDirectionType } from 'primeng/api';
+        basic: `import { PrimeNGConfig, OverlayOptions, ResponsiveOverlayDirectionType } from '@shuppert/primeng/api';
 
 const responsiveOptions: ResponsiveOverlayOptions = {
     // style?: any;                                     // Style of component in given breakpoint or media query

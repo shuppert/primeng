@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { MenuItem } from 'primeng/api';
+import { MenuItem } from '@shuppert/primeng/api';
 import { Code } from '@domain/code';
 
 @Component({
@@ -106,8 +106,8 @@ export class MultipleDoc implements OnInit {
 </div>`,
 
         typescript: `import { Component, OnInit } from '@angular/core';
-import { MenuItem } from 'primeng/api';
-import { PanelMenuModule } from 'primeng/panelmenu';
+import { MenuItem } from '@shuppert/primeng/api';
+import { PanelMenuModule } from '@shuppert/primeng/panelmenu';
 
 @Component({
     selector: 'panel-menu-multiple-demo',

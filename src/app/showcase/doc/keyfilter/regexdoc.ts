@@ -41,7 +41,7 @@ export class RegexDoc {
 
         typescript: `import { Component } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { InputTextModule } from 'primeng/inputtext';
+import { InputTextModule } from '@shuppert/primeng/inputtext';
 
 @Component({
     selector: 'key-filter-reg-exp-demo',

@@ -131,7 +131,7 @@ export class ReactiveFormsDoc implements OnInit {
 
         typescript: `import { Component, OnInit } from '@angular/core';
 import { FormControl, FormGroup, ReactiveFormsModule } from '@angular/forms';
-import { CascadeSelectModule } from 'primeng/cascadeselect';
+import { CascadeSelectModule } from '@shuppert/primeng/cascadeselect';
 
 @Component({
     selector: 'cascade-select-reactive-forms-demo',

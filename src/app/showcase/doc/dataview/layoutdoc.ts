@@ -277,10 +277,10 @@ export class LayoutDoc {
         typescript: `import { Component } from '@angular/core';
 import { Product } from '@domain/product';
 import { ProductService } from '@service/productservice';
-import { DataViewModule } from 'primeng/dataview';
-import { TagModule } from 'primeng/tag';
-import { RatingModule } from 'primeng/rating';
-import { ButtonModule } from 'primeng/button';
+import { DataViewModule } from '@shuppert/primeng/dataview';
+import { TagModule } from '@shuppert/primeng/tag';
+import { RatingModule } from '@shuppert/primeng/rating';
+import { ButtonModule } from '@shuppert/primeng/button';
 import { CommonModule } from '@angular/common';
 
 @Component({

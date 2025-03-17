@@ -56,7 +56,7 @@ export class BasicDoc implements OnInit {
 
         typescript: `import { Component, OnInit } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { ListboxModule } from 'primeng/listbox';
+import { ListboxModule } from '@shuppert/primeng/listbox';
 
 interface City {
     name: string,

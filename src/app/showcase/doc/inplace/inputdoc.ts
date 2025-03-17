@@ -41,8 +41,8 @@ export class InputDoc {
     </p-inplace>
 </div>`,
         typescript: `import { Component } from '@angular/core';
-import { InplaceModule } from 'primeng/inplace';
-import { InputTextModule } from 'primeng/inputtext';
+import { InplaceModule } from '@shuppert/primeng/inplace';
+import { InputTextModule } from '@shuppert/primeng/inputtext';
 
 @Component({
     selector: 'inplace-input-demo',

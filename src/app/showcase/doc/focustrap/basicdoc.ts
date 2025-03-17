@@ -99,11 +99,11 @@ export class BasicDoc {
     </div>
 </div>`,
         typescript: `import { Component } from '@angular/core';
-import { FocusTrapModule } from 'primeng/focustrap';
-import { ButtonModule } from 'primeng/button';
-import { DropdownModule } from 'primeng/dropdown';
+import { FocusTrapModule } from '@shuppert/primeng/focustrap';
+import { ButtonModule } from '@shuppert/primeng/button';
+import { DropdownModule } from '@shuppert/primeng/dropdown';
 import { FormsModule } from '@angular/forms';
-import { InputTextModule } from 'primeng/inputtext';
+import { InputTextModule } from '@shuppert/primeng/inputtext';
         
 @Component({
     selector: 'focus-trap-basic-demo',

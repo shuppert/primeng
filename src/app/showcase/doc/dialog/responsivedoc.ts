@@ -62,8 +62,8 @@ export class ResponsiveDoc {
 </div>`,
 
         typescript: `import { Component } from '@angular/core';
-import { DialogModule } from 'primeng/dialog';
-import { ButtonModule } from 'primeng/button';
+import { DialogModule } from '@shuppert/primeng/dialog';
+import { ButtonModule } from '@shuppert/primeng/button';
 
 @Component({
     selector: 'dialog-responsive-demo',

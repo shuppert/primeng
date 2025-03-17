@@ -102,7 +102,7 @@ export class HorizontalBarDoc implements OnInit {
     <p-chart type="bar" [data]="data" [options]="options" />
 </div>`,
         typescript: `import { Component, OnInit } from '@angular/core';
-import { ChartModule } from 'primeng/chart';
+import { ChartModule } from '@shuppert/primeng/chart';
 
 @Component({
     selector: 'chart-horizontal-bar-demo',

@@ -29,7 +29,7 @@ export class BasicDoc {
     <p-chip label="Thriller" [removable]="true" />
 </div>`,
         typescript: `import { Component } from '@angular/core';
-import { ChipModule } from 'primeng/chip';
+import { ChipModule } from '@shuppert/primeng/chip';
 
 @Component({
     selector: 'chip-basic-demo',

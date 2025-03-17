@@ -24,14 +24,14 @@ import {
     signal
 } from '@angular/core';
 import { ActivatedRoute, Router, RouterModule } from '@angular/router';
-import { MenuItem, PrimeTemplate, SharedModule } from 'primeng/api';
-import { DomHandler } from 'primeng/dom';
-import { ChevronLeftIcon } from 'primeng/icons/chevronleft';
-import { ChevronRightIcon } from 'primeng/icons/chevronright';
-import { RippleModule } from 'primeng/ripple';
-import { TooltipModule } from 'primeng/tooltip';
-import { Nullable } from 'primeng/ts-helpers';
-import { ObjectUtils } from 'primeng/utils';
+import { MenuItem, PrimeTemplate, SharedModule } from '@shuppert/primeng/api';
+import { DomHandler } from '@shuppert/primeng/dom';
+import { ChevronLeftIcon } from '@shuppert/primeng/icons/chevronleft';
+import { ChevronRightIcon } from '@shuppert/primeng/icons/chevronright';
+import { RippleModule } from '@shuppert/primeng/ripple';
+import { TooltipModule } from '@shuppert/primeng/tooltip';
+import { Nullable } from '@shuppert/primeng/ts-helpers';
+import { ObjectUtils } from '@shuppert/primeng/utils';
 
 /**
  * TabMenu is a navigation component that displays items as tab headers.

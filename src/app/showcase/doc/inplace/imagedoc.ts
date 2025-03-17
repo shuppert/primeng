@@ -54,7 +54,7 @@ export class ImageDoc {
     </p-inplace>
 </div>`,
         typescript: `import { Component } from '@angular/core';
-import { InplaceModule } from 'primeng/inplace';
+import { InplaceModule } from '@shuppert/primeng/inplace';
 
 @Component({
     selector: 'inplace-image-demo',

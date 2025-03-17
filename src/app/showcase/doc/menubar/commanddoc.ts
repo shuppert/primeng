@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { MenuItem, MessageService } from 'primeng/api';
+import { MenuItem, MessageService } from '@shuppert/primeng/api';
 import { Code } from '@domain/code';
 
 @Component({
@@ -86,9 +86,9 @@ export class CommandDoc implements OnInit {
 </div>`,
 
         typescript: `import { Component, OnInit } from '@angular/core';
-import { MenuItem, MessageService } from 'primeng/api';
-import { MenubarModule } from 'primeng/menubar';
-import { ToastModule } from 'primeng/toast';
+import { MenuItem, MessageService } from '@shuppert/primeng/api';
+import { MenubarModule } from '@shuppert/primeng/menubar';
+import { ToastModule } from '@shuppert/primeng/toast';
 
 @Component({
     selector: 'menubar-command-demo',

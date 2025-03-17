@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { MenuItem, MessageService } from 'primeng/api';
+import { MenuItem, MessageService } from '@shuppert/primeng/api';
 import { Code } from '@domain/code';
 
 @Component({
@@ -160,9 +160,9 @@ export class RaisedTextDoc {
 </div>`,
 
         typescript: `import { Component } from '@angular/core';
-import { MenuItem, MessageService } from 'primeng/api';
-import { SplitButtonModule } from 'primeng/splitbutton';
-import { ToastModule } from 'primeng/toast';
+import { MenuItem, MessageService } from '@shuppert/primeng/api';
+import { SplitButtonModule } from '@shuppert/primeng/splitbutton';
+import { ToastModule } from '@shuppert/primeng/toast';
 
 @Component({
     selector: 'split-button-raised-text-demo',

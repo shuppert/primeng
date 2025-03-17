@@ -123,8 +123,8 @@ export class SampleDoc {
 
         typescript: `import { Component } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { InputOtpModule } from 'primeng/inputotp';
-import { ButtonModule } from 'primeng/button';
+import { InputOtpModule } from '@shuppert/primeng/inputotp';
+import { ButtonModule } from '@shuppert/primeng/button';
 
 @Component({
     selector: 'input-otp-sample-demo',

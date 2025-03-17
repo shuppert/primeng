@@ -74,9 +74,9 @@ export class BasicDoc {
 </div>`,
 
         typescript: `import { Component } from '@angular/core';
-import { DialogModule } from 'primeng/dialog';
-import { ButtonModule } from 'primeng/button';
-import { InputTextModule } from 'primeng/inputtext';
+import { DialogModule } from '@shuppert/primeng/dialog';
+import { ButtonModule } from '@shuppert/primeng/button';
+import { InputTextModule } from '@shuppert/primeng/inputtext';
 
 @Component({
     selector: 'dialog-basic-demo',

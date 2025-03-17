@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
-import { BaseIcon } from 'primeng/baseicon';
-import { UniqueComponentId } from 'primeng/utils';
+import { BaseIcon } from '@shuppert/primeng/baseicon';
+import { UniqueComponentId } from '@shuppert/primeng/utils';
 
 @Component({
     selector: 'WindowMaximizeIcon',

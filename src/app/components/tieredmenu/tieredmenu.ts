@@ -29,13 +29,13 @@ import {
     signal
 } from '@angular/core';
 import { RouterModule } from '@angular/router';
-import { MenuItem, OverlayService, PrimeNGConfig, PrimeTemplate, SharedModule } from 'primeng/api';
-import { ConnectedOverlayScrollHandler, DomHandler } from 'primeng/dom';
-import { AngleRightIcon } from 'primeng/icons/angleright';
-import { RippleModule } from 'primeng/ripple';
-import { TooltipModule } from 'primeng/tooltip';
-import { Nullable, VoidListener } from 'primeng/ts-helpers';
-import { ObjectUtils, UniqueComponentId, ZIndexUtils } from 'primeng/utils';
+import { MenuItem, OverlayService, PrimeNGConfig, PrimeTemplate, SharedModule } from '@shuppert/primeng/api';
+import { ConnectedOverlayScrollHandler, DomHandler } from '@shuppert/primeng/dom';
+import { AngleRightIcon } from '@shuppert/primeng/icons/angleright';
+import { RippleModule } from '@shuppert/primeng/ripple';
+import { TooltipModule } from '@shuppert/primeng/tooltip';
+import { Nullable, VoidListener } from '@shuppert/primeng/ts-helpers';
+import { ObjectUtils, UniqueComponentId, ZIndexUtils } from '@shuppert/primeng/utils';
 
 @Component({
     selector: 'p-tieredMenuSub',

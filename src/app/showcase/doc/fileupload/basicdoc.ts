@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { MessageService } from 'primeng/api';
+import { MessageService } from '@shuppert/primeng/api';
 import { Code } from '@domain/code';
 
 interface UploadEvent {
@@ -51,9 +51,9 @@ export class BasicDoc {
         (onUpload)="onUpload($event)" />
 </div>`,
         typescript: `import { Component } from '@angular/core';
-import { MessageService } from 'primeng/api';
-import { FileUploadModule } from 'primeng/fileupload';
-import { ToastModule } from 'primeng/toast';
+import { MessageService } from '@shuppert/primeng/api';
+import { FileUploadModule } from '@shuppert/primeng/fileupload';
+import { ToastModule } from '@shuppert/primeng/toast';
 
 interface UploadEvent {
     originalEvent: Event;

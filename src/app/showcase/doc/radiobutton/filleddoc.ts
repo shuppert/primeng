@@ -24,7 +24,7 @@ export class FilledDoc {
 </div>`,
 
         typescript: `import { Component } from '@angular/core';
-import { RadioButtonModule } from 'primeng/radiobutton';
+import { RadioButtonModule } from '@shuppert/primeng/radiobutton';
 import { FormsModule } from '@angular/forms';
 
 @Component({

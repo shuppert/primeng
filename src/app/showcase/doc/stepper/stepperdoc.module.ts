@@ -1,21 +1,21 @@
 import { CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
 import { RouterModule } from '@angular/router';
-import { StepperModule } from 'primeng/stepper';
+import { StepperModule } from '@shuppert/primeng/stepper';
 import { AppDocModule } from '@layout/doc/app.doc.module';
 import { AppCodeModule } from '@layout/doc/app.code.component';
 import { AccessibilityDoc } from './accessibilitydoc';
 import { ImportDoc } from './importdoc';
 import { BasicDoc } from './basicdoc';
-import { ButtonModule } from 'primeng/button';
+import { ButtonModule } from '@shuppert/primeng/button';
 import { VerticalDoc } from './verticaldoc';
 import { LinearDoc } from './lineardoc';
 import { TemplateDoc } from './templatedoc';
-import { PasswordModule } from 'primeng/password';
-import { InputIconModule } from 'primeng/inputicon';
-import { IconFieldModule } from 'primeng/iconfield';
-import { InputTextModule } from 'primeng/inputtext';
-import { ToggleButtonModule } from 'primeng/togglebutton';
+import { PasswordModule } from '@shuppert/primeng/password';
+import { InputIconModule } from '@shuppert/primeng/inputicon';
+import { IconFieldModule } from '@shuppert/primeng/iconfield';
+import { InputTextModule } from '@shuppert/primeng/inputtext';
+import { ToggleButtonModule } from '@shuppert/primeng/togglebutton';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({

@@ -106,7 +106,7 @@ export class PrefixSuffixDoc {
 </div>`,
 
         typescript: `import { Component } from '@angular/core';
-import { InputNumberModule } from 'primeng/inputnumber';
+import { InputNumberModule } from '@shuppert/primeng/inputnumber';
 import { FormsModule } from '@angular/forms';
 
 @Component({

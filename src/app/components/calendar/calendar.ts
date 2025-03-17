@@ -24,21 +24,21 @@ import {
     ViewEncapsulation
 } from '@angular/core';
 import { ControlValueAccessor, NG_VALUE_ACCESSOR } from '@angular/forms';
-import { OverlayService, PrimeNGConfig, PrimeTemplate, SharedModule, TranslationKeys } from 'primeng/api';
-import { ButtonModule } from 'primeng/button';
-import { ConnectedOverlayScrollHandler, DomHandler } from 'primeng/dom';
-import { RippleModule } from 'primeng/ripple';
-import { ObjectUtils, UniqueComponentId, ZIndexUtils } from 'primeng/utils';
+import { OverlayService, PrimeNGConfig, PrimeTemplate, SharedModule, TranslationKeys } from '@shuppert/primeng/api';
+import { ButtonModule } from '@shuppert/primeng/button';
+import { ConnectedOverlayScrollHandler, DomHandler } from '@shuppert/primeng/dom';
+import { RippleModule } from '@shuppert/primeng/ripple';
+import { ObjectUtils, UniqueComponentId, ZIndexUtils } from '@shuppert/primeng/utils';
 import { Subscription } from 'rxjs';
-import { ChevronLeftIcon } from 'primeng/icons/chevronleft';
-import { ChevronRightIcon } from 'primeng/icons/chevronright';
-import { ChevronUpIcon } from 'primeng/icons/chevronup';
-import { ChevronDownIcon } from 'primeng/icons/chevrondown';
-import { TimesIcon } from 'primeng/icons/times';
-import { CalendarIcon } from 'primeng/icons/calendar';
-import { Nullable, VoidListener } from 'primeng/ts-helpers';
+import { ChevronLeftIcon } from '@shuppert/primeng/icons/chevronleft';
+import { ChevronRightIcon } from '@shuppert/primeng/icons/chevronright';
+import { ChevronUpIcon } from '@shuppert/primeng/icons/chevronup';
+import { ChevronDownIcon } from '@shuppert/primeng/icons/chevrondown';
+import { TimesIcon } from '@shuppert/primeng/icons/times';
+import { CalendarIcon } from '@shuppert/primeng/icons/calendar';
+import { Nullable, VoidListener } from '@shuppert/primeng/ts-helpers';
 import { NavigationState, CalendarResponsiveOptions, CalendarTypeView, LocaleSettings, Month, CalendarMonthChangeEvent, CalendarYearChangeEvent } from './calendar.interface';
-import { AutoFocusModule } from 'primeng/autofocus';
+import { AutoFocusModule } from '@shuppert/primeng/autofocus';
 
 export const CALENDAR_VALUE_ACCESSOR: any = {
     provide: NG_VALUE_ACCESSOR,

@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { MenuItem } from 'primeng/api';
+import { MenuItem } from '@shuppert/primeng/api';
 import { Code } from '@domain/code';
 
 @Component({
@@ -67,8 +67,8 @@ export class TemplateDoc implements OnInit {
 </div>`,
 
         typescript: `import { Component, OnInit } from '@angular/core';
-import { TabMenuModule } from 'primeng/tabmenu';
-import { RippleModule } from 'primeng/ripple';
+import { TabMenuModule } from '@shuppert/primeng/tabmenu';
+import { RippleModule } from '@shuppert/primeng/ripple';
 
 @Component({
     selector: 'tab-menu-template-demo',
@@ -97,7 +97,7 @@ export class TabMenuTemplateDemo implements OnInit {
         module: `
 import { CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
-import { TabMenuModule } from 'primeng/tabmenu';
+import { TabMenuModule } from '@shuppert/primeng/tabmenu';
 import { TabMenuDemo } from './tabmenudemo';
 
 @NgModule({

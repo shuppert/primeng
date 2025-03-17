@@ -154,9 +154,9 @@ export class TemplateDoc {
 </div>`,
 
         typescript: `import { Component } from '@angular/core';
-import { TabViewModule } from 'primeng/tabview';
-import { BadgeModule } from 'primeng/badge';
-import { AvatarModule } from 'primeng/avatar';
+import { TabViewModule } from '@shuppert/primeng/tabview';
+import { BadgeModule } from '@shuppert/primeng/badge';
+import { AvatarModule } from '@shuppert/primeng/avatar';
 
 @Component({
     selector: 'tab-view-template-demo',

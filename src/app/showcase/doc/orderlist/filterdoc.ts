@@ -110,7 +110,7 @@ export class FilterDoc implements OnInit {
         typescript: `import { Component, OnInit } from '@angular/core';
 import { Product } from '@domain/product';
 import { ProductService } from '@service/productservice';
-import { OrderListModule } from 'primeng/orderlist';
+import { OrderListModule } from '@shuppert/primeng/orderlist';
 
 @Component({
     selector: 'orderlist-filter-demo',

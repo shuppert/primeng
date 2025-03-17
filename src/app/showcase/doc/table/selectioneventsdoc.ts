@@ -1,5 +1,5 @@
 import { ChangeDetectionStrategy, ChangeDetectorRef, Component } from '@angular/core';
-import { MessageService } from 'primeng/api';
+import { MessageService } from '@shuppert/primeng/api';
 import { Code } from '@domain/code';
 import { Product } from '@domain/product';
 import { ProductService } from '@service/productservice';
@@ -114,11 +114,11 @@ export class SelectionEventsDoc {
     </p-table>
 </div>`,
         typescript: `import { Component, Input, OnInit } from '@angular/core';
-import { MessageService } from 'primeng/api';
+import { MessageService } from '@shuppert/primeng/api';
 import { Product } from '@domain/product';
 import { ProductService } from '@service/productservice';
-import { TableModule } from 'primeng/table';
-import { ToastModule } from 'primeng/toast';
+import { TableModule } from '@shuppert/primeng/table';
+import { ToastModule } from '@shuppert/primeng/toast';
 
 @Component({
     selector: 'table-selection-events-demo',

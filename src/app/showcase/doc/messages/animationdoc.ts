@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { Message } from 'primeng/api';
+import { Message } from '@shuppert/primeng/api';
 import { Code } from '@domain/code';
 
 @Component({
@@ -38,8 +38,8 @@ export class AnimationDoc implements OnInit {
         [enableService]="false" />
 </div>`,
         typescript: `import { Component, OnInit } from '@angular/core';
-import { Message } from 'primeng/api';
-import { MessagesModule } from 'primeng/messages';
+import { Message } from '@shuppert/primeng/api';
+import { MessagesModule } from '@shuppert/primeng/messages';
 
 @Component({
     selector: 'messages-animation-demo',

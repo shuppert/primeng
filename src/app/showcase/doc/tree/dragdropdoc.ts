@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { TreeDragDropService, TreeNode } from 'primeng/api';
+import { TreeDragDropService, TreeNode } from '@shuppert/primeng/api';
 import { Code } from '@domain/code';
 import { NodeService } from '@service/nodeservice';
 
@@ -45,9 +45,9 @@ export class DragDropDoc implements OnInit {
 </div>`,
 
         typescript: `import { Component, OnInit } from '@angular/core';
-import { TreeDragDropService, TreeNode } from 'primeng/api';
+import { TreeDragDropService, TreeNode } from '@shuppert/primeng/api';
 import { NodeService } from '@service/nodeservice';
-import { TreeModule } from 'primeng/tree';
+import { TreeModule } from '@shuppert/primeng/tree';
 
 @Component({
     selector: 'tree-drag-drop-demo',

@@ -1,8 +1,8 @@
 import { CommonModule, DOCUMENT, isPlatformBrowser } from '@angular/common';
 import { AfterViewInit, Directive, ElementRef, Inject, NgModule, NgZone, OnDestroy, Optional, PLATFORM_ID, Renderer2 } from '@angular/core';
-import { PrimeNGConfig } from 'primeng/api';
-import { DomHandler } from 'primeng/dom';
-import { VoidListener } from 'primeng/ts-helpers';
+import { PrimeNGConfig } from '@shuppert/primeng/api';
+import { DomHandler } from '@shuppert/primeng/dom';
+import { VoidListener } from '@shuppert/primeng/ts-helpers';
 /**
  * Ripple directive adds ripple effect to the host element.
  * @group Components

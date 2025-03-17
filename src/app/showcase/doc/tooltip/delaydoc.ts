@@ -30,8 +30,8 @@ export class DelayDoc {
 </div>`,
 
         typescript: `import { Component } from '@angular/core';
-import { TooltipModule } from 'primeng/tooltip';
-import { ButtonModule } from 'primeng/button';
+import { TooltipModule } from '@shuppert/primeng/tooltip';
+import { ButtonModule } from '@shuppert/primeng/button';
 
 @Component({
     selector: 'tooltip-delay-demo',

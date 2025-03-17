@@ -237,9 +237,9 @@ export class CellEditDoc {
         typescript: `import { Component, OnInit } from '@angular/core';
 import { Product } from '@domain/product';
 import { ProductService } from '@service/productservice';
-import { TableModule } from 'primeng/table';
+import { TableModule } from '@shuppert/primeng/table';
 import { CommonModule } from '@angular/common';
-import { InputTextModule } from 'primeng/inputtext';
+import { InputTextModule } from '@shuppert/primeng/inputtext';
 
 @Component({
     selector: 'table-cell-edit-demo',

@@ -50,7 +50,7 @@ export class DynamicDoc {
 
         typescript: `import { Component } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { CheckboxModule } from 'primeng/checkbox';
+import { CheckboxModule } from '@shuppert/primeng/checkbox';
 
 @Component({
     selector: 'checkbox-dynamic-demo',

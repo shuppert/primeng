@@ -30,7 +30,7 @@ export class PreviewDoc {
 </div>`,
 
         typescript: `import { Component } from '@angular/core';
-import { ImageModule } from 'primeng/image';
+import { ImageModule } from '@shuppert/primeng/image';
 
 @Component({
     selector: 'image-preview-demo',

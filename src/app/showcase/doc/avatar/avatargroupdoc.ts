@@ -62,8 +62,8 @@ export class GroupDoc {
     </p-avatarGroup>
 </div>`,
         typescript: `import { Component } from '@angular/core';
-import { AvatarModule } from 'primeng/avatar';
-import { AvatarGroupModule } from 'primeng/avatargroup';
+import { AvatarModule } from '@shuppert/primeng/avatar';
+import { AvatarGroupModule } from '@shuppert/primeng/avatargroup';
 
 @Component({
     selector: 'avatar-group-demo',

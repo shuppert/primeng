@@ -1,5 +1,5 @@
 import { ChangeDetectionStrategy, ChangeDetectorRef, Component } from '@angular/core';
-import { Table } from 'primeng/table';
+import { Table } from '@shuppert/primeng/table';
 import { Code } from '../../domain/code';
 import { Customer, Representative } from '../../domain/customer';
 import { CustomerService } from '../../service/customerservice';
@@ -499,7 +499,7 @@ export class FilterAdvancedDoc {
     </p-table>
 </div>`,
         typescript: `import { Component, OnInit } from '@angular/core';
-import { Table } from 'primeng/table';
+import { Table } from '@shuppert/primeng/table';
 import { Customer, Representative } from '../domain/customer';
 import { CustomerService } from '../service/customerservice';
 

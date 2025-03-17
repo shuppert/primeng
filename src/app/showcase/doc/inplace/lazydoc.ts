@@ -104,8 +104,8 @@ export class LazyDoc {
         typescript: `import { Component } from '@angular/core';
 import { Product } from '@domain/product';
 import { ProductService } from '@service/productservice';
-import { InplaceModule } from 'primeng/inplace';
-import { TableModule } from 'primeng/table';
+import { InplaceModule } from '@shuppert/primeng/inplace';
+import { TableModule } from '@shuppert/primeng/table';
 
 @Component({
     selector: 'inplace-lazy-demo',

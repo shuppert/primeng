@@ -100,7 +100,7 @@ export class LineDoc implements OnInit {
     <p-chart type="line" [data]="data" [options]="options" />
 </div>`,
         typescript: `import { Component, OnInit } from '@angular/core';
-import { ChartModule } from 'primeng/chart';
+import { ChartModule } from '@shuppert/primeng/chart';
 
 @Component({
     selector: 'chart-line-demo',

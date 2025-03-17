@@ -28,8 +28,8 @@ export class BadgeDoc {
         severity="danger" />
 </div>`,
         typescript: `import { Component } from '@angular/core';
-import { AvatarModule } from 'primeng/avatar';
-import { BadgeModule } from 'primeng/badge';
+import { AvatarModule } from '@shuppert/primeng/avatar';
+import { BadgeModule } from '@shuppert/primeng/badge';
 
 @Component({
     selector: 'avatar-badge-demo',

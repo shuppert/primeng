@@ -24,17 +24,17 @@ import {
     booleanAttribute,
     numberAttribute
 } from '@angular/core';
-import { Message, MessageService, PrimeNGConfig, PrimeTemplate, SharedModule } from 'primeng/api';
-import { CheckIcon } from 'primeng/icons/check';
-import { ExclamationTriangleIcon } from 'primeng/icons/exclamationtriangle';
-import { InfoCircleIcon } from 'primeng/icons/infocircle';
-import { TimesIcon } from 'primeng/icons/times';
-import { TimesCircleIcon } from 'primeng/icons/timescircle';
-import { RippleModule } from 'primeng/ripple';
-import { ObjectUtils, UniqueComponentId, ZIndexUtils } from 'primeng/utils';
+import { Message, MessageService, PrimeNGConfig, PrimeTemplate, SharedModule } from '@shuppert/primeng/api';
+import { CheckIcon } from '@shuppert/primeng/icons/check';
+import { ExclamationTriangleIcon } from '@shuppert/primeng/icons/exclamationtriangle';
+import { InfoCircleIcon } from '@shuppert/primeng/icons/infocircle';
+import { TimesIcon } from '@shuppert/primeng/icons/times';
+import { TimesCircleIcon } from '@shuppert/primeng/icons/timescircle';
+import { RippleModule } from '@shuppert/primeng/ripple';
+import { ObjectUtils, UniqueComponentId, ZIndexUtils } from '@shuppert/primeng/utils';
 import { Subscription } from 'rxjs';
 import { ToastCloseEvent, ToastItemCloseEvent, ToastPositionType } from './toast.interface';
-import { DomHandler } from 'primeng/dom';
+import { DomHandler } from '@shuppert/primeng/dom';
 
 @Component({
     selector: 'p-toastItem',

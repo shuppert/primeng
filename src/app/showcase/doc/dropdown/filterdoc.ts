@@ -105,7 +105,7 @@ export class FilterDoc implements OnInit {
 
         typescript: `import { Component, OnInit } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { DropdownModule } from 'primeng/dropdown';
+import { DropdownModule } from '@shuppert/primeng/dropdown';
 
 @Component({
     selector: 'dropdown-filter-demo',

@@ -29,23 +29,23 @@ import {
     booleanAttribute,
     numberAttribute
 } from '@angular/core';
-import { BlockableUI, FilterMetadata, FilterService, PrimeNGConfig, PrimeTemplate, ScrollerOptions, SharedModule, SortMeta, TreeNode, TreeTableNode } from 'primeng/api';
-import { DomHandler } from 'primeng/dom';
-import { ArrowDownIcon } from 'primeng/icons/arrowdown';
-import { ArrowUpIcon } from 'primeng/icons/arrowup';
-import { CheckIcon } from 'primeng/icons/check';
-import { ChevronDownIcon } from 'primeng/icons/chevrondown';
-import { ChevronRightIcon } from 'primeng/icons/chevronright';
-import { MinusIcon } from 'primeng/icons/minus';
-import { SortAltIcon } from 'primeng/icons/sortalt';
-import { SortAmountDownIcon } from 'primeng/icons/sortamountdown';
-import { SortAmountUpAltIcon } from 'primeng/icons/sortamountupalt';
-import { SpinnerIcon } from 'primeng/icons/spinner';
-import { PaginatorModule } from 'primeng/paginator';
-import { RippleModule } from 'primeng/ripple';
-import { Scroller, ScrollerModule } from 'primeng/scroller';
-import { Nullable, VoidListener } from 'primeng/ts-helpers';
-import { ObjectUtils } from 'primeng/utils';
+import { BlockableUI, FilterMetadata, FilterService, PrimeNGConfig, PrimeTemplate, ScrollerOptions, SharedModule, SortMeta, TreeNode, TreeTableNode } from '@shuppert/primeng/api';
+import { DomHandler } from '@shuppert/primeng/dom';
+import { ArrowDownIcon } from '@shuppert/primeng/icons/arrowdown';
+import { ArrowUpIcon } from '@shuppert/primeng/icons/arrowup';
+import { CheckIcon } from '@shuppert/primeng/icons/check';
+import { ChevronDownIcon } from '@shuppert/primeng/icons/chevrondown';
+import { ChevronRightIcon } from '@shuppert/primeng/icons/chevronright';
+import { MinusIcon } from '@shuppert/primeng/icons/minus';
+import { SortAltIcon } from '@shuppert/primeng/icons/sortalt';
+import { SortAmountDownIcon } from '@shuppert/primeng/icons/sortamountdown';
+import { SortAmountUpAltIcon } from '@shuppert/primeng/icons/sortamountupalt';
+import { SpinnerIcon } from '@shuppert/primeng/icons/spinner';
+import { PaginatorModule } from '@shuppert/primeng/paginator';
+import { RippleModule } from '@shuppert/primeng/ripple';
+import { Scroller, ScrollerModule } from '@shuppert/primeng/scroller';
+import { Nullable, VoidListener } from '@shuppert/primeng/ts-helpers';
+import { ObjectUtils } from '@shuppert/primeng/utils';
 import { Subject, Subscription } from 'rxjs';
 import {
     TreeTableColResizeEvent,

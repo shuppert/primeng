@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { MenuItem, MessageService } from 'primeng/api';
+import { MenuItem, MessageService } from '@shuppert/primeng/api';
 import { Code } from '@domain/code';
 
 @Component({
@@ -107,9 +107,9 @@ export class SemiCircleDoc implements OnInit {
 </div>`,
 
         typescript: `import { Component, OnInit } from '@angular/core';
-import { MenuItem, MessageService } from 'primeng/api';
-import { SpeedDialModule } from 'primeng/speeddial';
-import { ToastModule } from 'primeng/toast';
+import { MenuItem, MessageService } from '@shuppert/primeng/api';
+import { SpeedDialModule } from '@shuppert/primeng/speeddial';
+import { ToastModule } from '@shuppert/primeng/toast';
 
 @Component({
     selector: 'speed-dial-semi-circle-demo',

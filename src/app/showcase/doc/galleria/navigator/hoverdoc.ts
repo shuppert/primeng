@@ -87,7 +87,7 @@ export class HoverDoc implements OnInit {
 </div>`,
         typescript: `import { Component, OnInit } from '@angular/core';
 import { PhotoService } from '@service/photoservice';
-import { GalleriaModule } from 'primeng/galleria';
+import { GalleriaModule } from '@shuppert/primeng/galleria';
 
 @Component({
     selector: 'galleria-navigator-hover-demo',

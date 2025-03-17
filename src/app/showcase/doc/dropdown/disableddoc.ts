@@ -52,7 +52,7 @@ export class DisabledDoc {
 
         typescript: `import { Component } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { DropdownModule } from 'primeng/dropdown';
+import { DropdownModule } from '@shuppert/primeng/dropdown';
 
 interface City {
     name: string;

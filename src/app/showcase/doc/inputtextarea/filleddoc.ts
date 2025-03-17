@@ -36,7 +36,7 @@ export class FilledDoc {
 </div>`,
 
         typescript: `import { Component } from '@angular/core';
-import { InputTextareaModule } from 'primeng/inputtextarea';
+import { InputTextareaModule } from '@shuppert/primeng/inputtextarea';
 import { FormsModule } from '@angular/forms';
 
 @Component({

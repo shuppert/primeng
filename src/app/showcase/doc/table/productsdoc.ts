@@ -1,5 +1,5 @@
 import { ChangeDetectionStrategy, ChangeDetectorRef, Component } from '@angular/core';
-import { ConfirmationService, MessageService } from 'primeng/api';
+import { ConfirmationService, MessageService } from '@shuppert/primeng/api';
 import { Code } from '@domain/code';
 import { Product } from '@domain/product';
 import { ProductService } from '@service/productservice';
@@ -694,26 +694,26 @@ export class ProductsDoc {
     <p-confirmDialog [style]="{ width: '450px' }" />
 </div>`,
         typescript: `import { Component, OnInit } from '@angular/core';
-import { ConfirmationService, MessageService } from 'primeng/api';
+import { ConfirmationService, MessageService } from '@shuppert/primeng/api';
 import { Product } from '@domain/product';
 import { ProductService } from '@service/productservice';
-import { TableModule } from 'primeng/table';
-import { DialogModule } from 'primeng/dialog';
-import { RippleModule } from 'primeng/ripple';
-import { ButtonModule } from 'primeng/button';
-import { ToastModule } from 'primeng/toast';
-import { ToolbarModule } from 'primeng/toolbar';
-import { ConfirmDialogModule } from 'primeng/confirmdialog';
-import { InputTextModule } from 'primeng/inputtext';
-import { InputTextareaModule } from 'primeng/inputtextarea';
+import { TableModule } from '@shuppert/primeng/table';
+import { DialogModule } from '@shuppert/primeng/dialog';
+import { RippleModule } from '@shuppert/primeng/ripple';
+import { ButtonModule } from '@shuppert/primeng/button';
+import { ToastModule } from '@shuppert/primeng/toast';
+import { ToolbarModule } from '@shuppert/primeng/toolbar';
+import { ConfirmDialogModule } from '@shuppert/primeng/confirmdialog';
+import { InputTextModule } from '@shuppert/primeng/inputtext';
+import { InputTextareaModule } from '@shuppert/primeng/inputtextarea';
 import { CommonModule } from '@angular/common';
-import { FileUploadModule } from 'primeng/fileupload';
-import { DropdownModule } from 'primeng/dropdown';
-import { TagModule } from 'primeng/tag';
-import { RadioButtonModule } from 'primeng/radiobutton';
-import { RatingModule } from 'primeng/rating';
+import { FileUploadModule } from '@shuppert/primeng/fileupload';
+import { DropdownModule } from '@shuppert/primeng/dropdown';
+import { TagModule } from '@shuppert/primeng/tag';
+import { RadioButtonModule } from '@shuppert/primeng/radiobutton';
+import { RatingModule } from '@shuppert/primeng/rating';
 import { FormsModule } from '@angular/forms';
-import { InputNumberModule } from 'primeng/inputnumber';
+import { InputNumberModule } from '@shuppert/primeng/inputnumber';
 
 @Component({
     selector: 'table-products-demo',

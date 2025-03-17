@@ -71,8 +71,8 @@ export class PositionDoc {
 </div>`,
 
         typescript: `import { Component } from '@angular/core';
-import { TooltipModule } from 'primeng/tooltip';
-import { InputTextModule } from 'primeng/inputtext';
+import { TooltipModule } from '@shuppert/primeng/tooltip';
+import { InputTextModule } from '@shuppert/primeng/inputtext';
 
 @Component({
     selector: 'tooltip-position-demo',

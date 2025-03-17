@@ -129,10 +129,10 @@ export class TemplateDoc {
 </div>`,
 
         typescript: `import { Component } from '@angular/core';
-import { DialogModule } from 'primeng/dialog';
-import { ButtonModule } from 'primeng/button';
-import { InputTextModule } from 'primeng/inputtext';
-import { AvatarModule } from 'primeng/avatar';
+import { DialogModule } from '@shuppert/primeng/dialog';
+import { ButtonModule } from '@shuppert/primeng/button';
+import { InputTextModule } from '@shuppert/primeng/inputtext';
+import { AvatarModule } from '@shuppert/primeng/avatar';
         
 @Component({
     selector: 'dialog-template-demo',

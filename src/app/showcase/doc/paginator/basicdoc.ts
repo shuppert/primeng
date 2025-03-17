@@ -51,7 +51,7 @@ export class BasicDoc {
 </div>`,
 
         typescript: `import { Component } from '@angular/core';
-import { PaginatorModule } from 'primeng/paginator';
+import { PaginatorModule } from '@shuppert/primeng/paginator';
 
 interface PageEvent {
     first: number;

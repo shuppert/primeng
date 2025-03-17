@@ -21,13 +21,13 @@ import {
     forwardRef,
     numberAttribute
 } from '@angular/core';
-import { BlockableUI, Header, PrimeTemplate, SharedModule } from 'primeng/api';
-import { DomHandler } from 'primeng/dom';
-import { ChevronDownIcon } from 'primeng/icons/chevrondown';
-import { ChevronRightIcon } from 'primeng/icons/chevronright';
+import { BlockableUI, Header, PrimeTemplate, SharedModule } from '@shuppert/primeng/api';
+import { DomHandler } from '@shuppert/primeng/dom';
+import { ChevronDownIcon } from '@shuppert/primeng/icons/chevrondown';
+import { ChevronRightIcon } from '@shuppert/primeng/icons/chevronright';
 import { Subscription } from 'rxjs';
 import { AccordionTabCloseEvent, AccordionTabOpenEvent } from './accordion.interface';
-import { UniqueComponentId } from 'primeng/utils';
+import { UniqueComponentId } from '@shuppert/primeng/utils';
 
 /**
  * AccordionTab is a helper component for Accordion.

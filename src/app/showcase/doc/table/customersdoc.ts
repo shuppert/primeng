@@ -2,7 +2,7 @@ import { ChangeDetectionStrategy, ChangeDetectorRef, Component } from '@angular/
 import { Code } from '@domain/code';
 import { Customer, Representative } from '@domain/customer';
 import { CustomerService } from '@service/customerservice';
-import { Table } from 'primeng/table';
+import { Table } from '@shuppert/primeng/table';
 
 @Component({
     selector: 'customers-doc',
@@ -578,18 +578,18 @@ export class CustomersDoc {
         typescript: `import { Component, OnInit } from '@angular/core';
 import { Customer, Representative } from '@domain/customer';
 import { CustomerService } from '@service/customerservice';
-import { TableModule } from 'primeng/table';
-import { TagModule } from 'primeng/tag';
-import { ButtonModule } from 'primeng/button';
-import { InputIconModule } from 'primeng/inputicon';
-import { IconFieldModule } from 'primeng/iconfield';
+import { TableModule } from '@shuppert/primeng/table';
+import { TagModule } from '@shuppert/primeng/tag';
+import { ButtonModule } from '@shuppert/primeng/button';
+import { InputIconModule } from '@shuppert/primeng/inputicon';
+import { IconFieldModule } from '@shuppert/primeng/iconfield';
 import { HttpClientModule } from '@angular/common/http';
 import { CommonModule } from '@angular/common';
-import { MultiSelectModule } from 'primeng/multiselect';
-import { InputTextModule } from 'primeng/inputtext';
-import { DropdownModule } from 'primeng/dropdown';
-import { SliderModule } from 'primeng/slider';
-import { ProgressBarModule } from 'primeng/progressbar';
+import { MultiSelectModule } from '@shuppert/primeng/multiselect';
+import { InputTextModule } from '@shuppert/primeng/inputtext';
+import { DropdownModule } from '@shuppert/primeng/dropdown';
+import { SliderModule } from '@shuppert/primeng/slider';
+import { ProgressBarModule } from '@shuppert/primeng/progressbar';
 
 @Component({
     selector: 'table-customers-demo',

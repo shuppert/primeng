@@ -25,7 +25,7 @@ export class ColorDoc {
 
         typescript: `import { Component } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { KnobModule } from 'primeng/knob';
+import { KnobModule } from '@shuppert/primeng/knob';
         
 @Component({
     selector: 'knob-color-demo',

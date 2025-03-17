@@ -51,7 +51,7 @@ export class FilterDoc {
         typescript: `import { Component } from '@angular/core';
 import { NodeService } from '@service/nodeservice';
 import { FormsModule } from '@angular/forms';
-import { TreeSelectModule } from 'primeng/treeselect';
+import { TreeSelectModule } from '@shuppert/primeng/treeselect';
 
 @Component({
     selector: 'tree-select-filter-demo',

@@ -39,7 +39,7 @@ export class FloatlabelDoc {
 </div>`,
 
         typescript: `import { Component } from '@angular/core';
-import { InputMaskModule } from 'primeng/inputmask';
+import { InputMaskModule } from '@shuppert/primeng/inputmask';
 import { FormsModule } from '@angular/forms';
 import { FloatLabelModule } from "primeng/floatlabel"
 

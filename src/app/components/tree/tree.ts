@@ -24,21 +24,21 @@ import {
     ViewChild,
     ViewEncapsulation
 } from '@angular/core';
-import { BlockableUI, PrimeNGConfig, PrimeTemplate, SharedModule, TranslationKeys, TreeDragDropService, TreeNode } from 'primeng/api';
-import { DomHandler } from 'primeng/dom';
-import { RippleModule } from 'primeng/ripple';
-import { Scroller, ScrollerModule } from 'primeng/scroller';
-import { ScrollerOptions } from 'primeng/api';
-import { ObjectUtils } from 'primeng/utils';
+import { BlockableUI, PrimeNGConfig, PrimeTemplate, SharedModule, TranslationKeys, TreeDragDropService, TreeNode } from '@shuppert/primeng/api';
+import { DomHandler } from '@shuppert/primeng/dom';
+import { RippleModule } from '@shuppert/primeng/ripple';
+import { Scroller, ScrollerModule } from '@shuppert/primeng/scroller';
+import { ScrollerOptions } from '@shuppert/primeng/api';
+import { ObjectUtils } from '@shuppert/primeng/utils';
 import { Subscription } from 'rxjs';
-import { CheckIcon } from 'primeng/icons/check';
-import { ChevronDownIcon } from 'primeng/icons/chevrondown';
-import { ChevronRightIcon } from 'primeng/icons/chevronright';
-import { MinusIcon } from 'primeng/icons/minus';
-import { PlusIcon } from 'primeng/icons/plus';
-import { SearchIcon } from 'primeng/icons/search';
-import { SpinnerIcon } from 'primeng/icons/spinner';
-import { Nullable } from 'primeng/ts-helpers';
+import { CheckIcon } from '@shuppert/primeng/icons/check';
+import { ChevronDownIcon } from '@shuppert/primeng/icons/chevrondown';
+import { ChevronRightIcon } from '@shuppert/primeng/icons/chevronright';
+import { MinusIcon } from '@shuppert/primeng/icons/minus';
+import { PlusIcon } from '@shuppert/primeng/icons/plus';
+import { SearchIcon } from '@shuppert/primeng/icons/search';
+import { SpinnerIcon } from '@shuppert/primeng/icons/spinner';
+import { Nullable } from '@shuppert/primeng/ts-helpers';
 import {
     TreeFilterEvent,
     TreeLazyLoadEvent,

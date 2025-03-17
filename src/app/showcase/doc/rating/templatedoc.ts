@@ -73,7 +73,7 @@ export class TemplateDoc {
 
         typescript: `import { Component } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { RatingModule } from 'primeng/rating';
+import { RatingModule } from '@shuppert/primeng/rating';
 
 @Component({
     selector: 'rating-template-demo',

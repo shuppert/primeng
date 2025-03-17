@@ -11,7 +11,7 @@ import { ImportDoc } from './importdoc';
 import { ListDoc } from './listdoc';
 import { SizeDoc } from './sizedoc';
 import { SpinDoc } from './spindoc';
-import { MenuModule } from 'primeng/menu';
+import { MenuModule } from '@shuppert/primeng/menu';
 import { FigmaDoc } from './figmadoc';
 
 @NgModule({

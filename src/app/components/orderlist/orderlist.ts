@@ -22,17 +22,17 @@ import {
     booleanAttribute,
     numberAttribute
 } from '@angular/core';
-import { FilterService, PrimeNGConfig, PrimeTemplate, SharedModule } from 'primeng/api';
-import { ButtonModule } from 'primeng/button';
-import { DomHandler } from 'primeng/dom';
-import { AngleDoubleDownIcon } from 'primeng/icons/angledoubledown';
-import { AngleDoubleUpIcon } from 'primeng/icons/angledoubleup';
-import { AngleDownIcon } from 'primeng/icons/angledown';
-import { AngleUpIcon } from 'primeng/icons/angleup';
-import { SearchIcon } from 'primeng/icons/search';
-import { RippleModule } from 'primeng/ripple';
-import { Nullable } from 'primeng/ts-helpers';
-import { ObjectUtils, UniqueComponentId } from 'primeng/utils';
+import { FilterService, PrimeNGConfig, PrimeTemplate, SharedModule } from '@shuppert/primeng/api';
+import { ButtonModule } from '@shuppert/primeng/button';
+import { DomHandler } from '@shuppert/primeng/dom';
+import { AngleDoubleDownIcon } from '@shuppert/primeng/icons/angledoubledown';
+import { AngleDoubleUpIcon } from '@shuppert/primeng/icons/angledoubleup';
+import { AngleDownIcon } from '@shuppert/primeng/icons/angledown';
+import { AngleUpIcon } from '@shuppert/primeng/icons/angleup';
+import { SearchIcon } from '@shuppert/primeng/icons/search';
+import { RippleModule } from '@shuppert/primeng/ripple';
+import { Nullable } from '@shuppert/primeng/ts-helpers';
+import { ObjectUtils, UniqueComponentId } from '@shuppert/primeng/utils';
 import { OrderListFilterEvent, OrderListFilterOptions, OrderListSelectionChangeEvent } from './orderlist.interface';
 /**
  * OrderList is used to managed the order of a collection.

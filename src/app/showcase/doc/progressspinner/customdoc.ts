@@ -32,7 +32,7 @@ export class CustomDoc {
         animationDuration=".5s" />
 </div>`,
         typescript: `import { Component } from '@angular/core';
-import { ProgressSpinnerModule } from 'primeng/progressspinner';
+import { ProgressSpinnerModule } from '@shuppert/primeng/progressspinner';
 
 @Component({
     selector: 'progress-spinner-custom-demo',

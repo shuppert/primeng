@@ -129,7 +129,7 @@ export class BasicDoc {
         typescript: `import { ChangeDetectorRef, Component } from '@angular/core';
 import { Product } from '@domain/product';
 import { ProductService } from '@service/productservice';
-import { PickListModule } from 'primeng/picklist';
+import { PickListModule } from '@shuppert/primeng/picklist';
 
 @Component({
     selector: 'picklist-basic-demo',

@@ -43,7 +43,7 @@ export class CustomizedDoc {
 
         typescript: `import { Component } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { ToggleButtonModule } from 'primeng/togglebutton';
+import { ToggleButtonModule } from '@shuppert/primeng/togglebutton';
 
 @Component({
     selector: 'toggle-button-customized-demo',

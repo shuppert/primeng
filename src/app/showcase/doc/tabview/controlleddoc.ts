@@ -123,8 +123,8 @@ export class ControlledDoc {
 </div>`,
 
         typescript: `import { Component } from '@angular/core';
-import { ButtonModule } from 'primeng/button';
-import { TabViewModule } from 'primeng/tabview';
+import { ButtonModule } from '@shuppert/primeng/button';
+import { TabViewModule } from '@shuppert/primeng/tabview';
 
 @Component({
     selector: 'tab-view-controlled-demo',

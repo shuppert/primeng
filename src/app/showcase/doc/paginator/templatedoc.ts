@@ -158,10 +158,10 @@ export class TemplateDoc {
 </div>`,
 
         typescript: `import { Component } from '@angular/core';
-import { PaginatorModule } from 'primeng/paginator';
-import { ButtonModule } from 'primeng/button';
-import { DividerModule } from 'primeng/divider';
-import { SliderModule } from 'primeng/slider';
+import { PaginatorModule } from '@shuppert/primeng/paginator';
+import { ButtonModule } from '@shuppert/primeng/button';
+import { DividerModule } from '@shuppert/primeng/divider';
+import { SliderModule } from '@shuppert/primeng/slider';
 import { FormsModule } from '@angular/forms';
         
 interface PageEvent {

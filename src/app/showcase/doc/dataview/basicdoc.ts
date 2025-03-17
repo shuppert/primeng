@@ -152,9 +152,9 @@ export class BasicDoc {
         typescript: `import { Component } from '@angular/core';
 import { Product } from '@domain/product';
 import { ProductService } from '@service/productservice';
-import { DataViewModule } from 'primeng/dataview';
-import { ButtonModule } from 'primeng/button';
-import { TagModule } from 'primeng/tag';
+import { DataViewModule } from '@shuppert/primeng/dataview';
+import { ButtonModule } from '@shuppert/primeng/button';
+import { TagModule } from '@shuppert/primeng/tag';
 import { CommonModule } from '@angular/common';
 
 @Component({

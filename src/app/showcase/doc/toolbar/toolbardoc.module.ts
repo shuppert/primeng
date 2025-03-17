@@ -1,11 +1,11 @@
 import { CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
 import { RouterModule } from '@angular/router';
-import { ButtonModule } from 'primeng/button';
-import { SplitButtonModule } from 'primeng/splitbutton';
-import { InputTextModule } from 'primeng/inputtext';
-import { AvatarModule } from 'primeng/avatar';
-import { ToolbarModule } from 'primeng/toolbar';
+import { ButtonModule } from '@shuppert/primeng/button';
+import { SplitButtonModule } from '@shuppert/primeng/splitbutton';
+import { InputTextModule } from '@shuppert/primeng/inputtext';
+import { AvatarModule } from '@shuppert/primeng/avatar';
+import { ToolbarModule } from '@shuppert/primeng/toolbar';
 import { AppDocModule } from '@layout/doc/app.doc.module';
 import { AppCodeModule } from '@layout/doc/app.code.component';
 import { AccessibilityDoc } from './accessibilitydoc';

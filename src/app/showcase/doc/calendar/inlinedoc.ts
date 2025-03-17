@@ -33,7 +33,7 @@ export class InlineDoc {
 
         typescript: `import { Component } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { CalendarModule } from 'primeng/calendar';
+import { CalendarModule } from '@shuppert/primeng/calendar';
 
 @Component({
     selector: 'calendar-inline-demo',

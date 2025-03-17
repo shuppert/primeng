@@ -105,7 +105,7 @@ export class LazyLoadDoc {
 </div>`,
 
         typescript: `import { Component, OnInit } from '@angular/core';
-import { ScrollerModule } from 'primeng/scroller';
+import { ScrollerModule } from '@shuppert/primeng/scroller';
 
 interface LazyEvent {
     first: number;

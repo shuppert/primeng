@@ -118,8 +118,8 @@ export class MultipleSelectionDoc {
         typescript: `import { Component, OnInit } from '@angular/core';
 import { Product } from '@domain/product';
 import { ProductService } from '@service/productservice';
-import { TableModule } from 'primeng/table';
-import { InputSwitchModule } from 'primeng/inputswitch';
+import { TableModule } from '@shuppert/primeng/table';
+import { InputSwitchModule } from '@shuppert/primeng/inputswitch';
 import { FormsModule } from '@angular/forms';
 import { CommonModule } from '@angular/common';
 

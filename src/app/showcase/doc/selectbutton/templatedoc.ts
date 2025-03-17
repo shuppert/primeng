@@ -50,7 +50,7 @@ export class TemplateDoc {
 
         typescript: `import { Component } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { SelectButtonModule } from 'primeng/selectbutton';
+import { SelectButtonModule } from '@shuppert/primeng/selectbutton';
 
 @Component({
     selector: 'select-button-template-demo',

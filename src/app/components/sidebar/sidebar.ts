@@ -21,12 +21,12 @@ import {
     booleanAttribute,
     numberAttribute
 } from '@angular/core';
-import { PrimeNGConfig, PrimeTemplate, SharedModule } from 'primeng/api';
-import { DomHandler } from 'primeng/dom';
-import { TimesIcon } from 'primeng/icons/times';
-import { RippleModule } from 'primeng/ripple';
-import { Nullable, VoidListener } from 'primeng/ts-helpers';
-import { ZIndexUtils } from 'primeng/utils';
+import { PrimeNGConfig, PrimeTemplate, SharedModule } from '@shuppert/primeng/api';
+import { DomHandler } from '@shuppert/primeng/dom';
+import { TimesIcon } from '@shuppert/primeng/icons/times';
+import { RippleModule } from '@shuppert/primeng/ripple';
+import { Nullable, VoidListener } from '@shuppert/primeng/ts-helpers';
+import { ZIndexUtils } from '@shuppert/primeng/utils';
 
 const showAnimation = animation([style({ transform: '{{transform}}', opacity: 0 }), animate('{{transition}}')]);
 

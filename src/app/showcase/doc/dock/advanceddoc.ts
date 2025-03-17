@@ -1,6 +1,6 @@
 import { Component, OnDestroy, OnInit } from '@angular/core';
-import { MenuItem, MessageService } from 'primeng/api';
-import { TerminalService } from 'primeng/terminal';
+import { MenuItem, MessageService } from '@shuppert/primeng/api';
+import { TerminalService } from '@shuppert/primeng/terminal';
 import { Subscription } from 'rxjs';
 import { Code } from '@domain/code';
 import { NodeService } from '@service/nodeservice';
@@ -491,18 +491,18 @@ export class AdvancedDoc implements OnInit, OnDestroy {
 </div>`,
 
         typescript: `import { Component, OnDestroy, OnInit } from '@angular/core';
-import { MenuItem, MessageService } from 'primeng/api';
-import { TerminalModule } from 'primeng/terminal';
-import { TerminalService } from 'primeng/terminal';
+import { MenuItem, MessageService } from '@shuppert/primeng/api';
+import { TerminalModule } from '@shuppert/primeng/terminal';
+import { TerminalService } from '@shuppert/primeng/terminal';
 import { Subscription } from 'rxjs';
 import { NodeService } from '@service/nodeservice';
 import { PhotoService } from '@service/photoservice';
-import { DockModule } from 'primeng/dock';
-import { MenubarModule } from 'primeng/menubar';
-import { ToastModule } from 'primeng/toast';
-import { DialogModule } from 'primeng/dialog';
-import { TreeModule } from 'primeng/tree';
-import { GalleriaModule } from 'primeng/galleria';
+import { DockModule } from '@shuppert/primeng/dock';
+import { MenubarModule } from '@shuppert/primeng/menubar';
+import { ToastModule } from '@shuppert/primeng/toast';
+import { DialogModule } from '@shuppert/primeng/dialog';
+import { TreeModule } from '@shuppert/primeng/tree';
+import { GalleriaModule } from '@shuppert/primeng/galleria';
         
 
 @Component({

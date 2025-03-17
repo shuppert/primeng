@@ -27,16 +27,16 @@ import {
     booleanAttribute,
     numberAttribute
 } from '@angular/core';
-import { Footer, Header, PrimeNGConfig, PrimeTemplate, SharedModule, TranslationKeys } from 'primeng/api';
-import { DomHandler } from 'primeng/dom';
-import { FocusTrapModule } from 'primeng/focustrap';
-import { TimesIcon } from 'primeng/icons/times';
-import { WindowMaximizeIcon } from 'primeng/icons/windowmaximize';
-import { WindowMinimizeIcon } from 'primeng/icons/windowminimize';
-import { RippleModule } from 'primeng/ripple';
-import { Nullable, VoidListener } from 'primeng/ts-helpers';
-import { UniqueComponentId, ZIndexUtils } from 'primeng/utils';
-import { ButtonModule } from 'primeng/button';
+import { Footer, Header, PrimeNGConfig, PrimeTemplate, SharedModule, TranslationKeys } from '@shuppert/primeng/api';
+import { DomHandler } from '@shuppert/primeng/dom';
+import { FocusTrapModule } from '@shuppert/primeng/focustrap';
+import { TimesIcon } from '@shuppert/primeng/icons/times';
+import { WindowMaximizeIcon } from '@shuppert/primeng/icons/windowmaximize';
+import { WindowMinimizeIcon } from '@shuppert/primeng/icons/windowminimize';
+import { RippleModule } from '@shuppert/primeng/ripple';
+import { Nullable, VoidListener } from '@shuppert/primeng/ts-helpers';
+import { UniqueComponentId, ZIndexUtils } from '@shuppert/primeng/utils';
+import { ButtonModule } from '@shuppert/primeng/button';
 
 const showAnimation = animation([style({ transform: '{{transform}}', opacity: 0 }), animate('{{transition}}')]);
 

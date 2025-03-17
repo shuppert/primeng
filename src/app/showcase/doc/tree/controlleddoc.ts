@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { TreeNode } from 'primeng/api';
+import { TreeNode } from '@shuppert/primeng/api';
 import { Code } from '@domain/code';
 import { NodeService } from '@service/nodeservice';
 
@@ -79,9 +79,9 @@ export class ControlledDoc implements OnInit {
 </div>`,
 
         typescript: `import { Component, OnInit } from '@angular/core';
-import { TreeNode } from 'primeng/api';
+import { TreeNode } from '@shuppert/primeng/api';
 import { NodeService } from '@service/nodeservice';
-import { ButtonModule } from 'primeng/button';
+import { ButtonModule } from '@shuppert/primeng/button';
 
 @Component({
     selector: 'tree-controlled-demo',

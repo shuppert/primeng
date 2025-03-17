@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { DynamicDialogRef } from 'primeng/dynamicdialog';
+import { DynamicDialogRef } from '@shuppert/primeng/dynamicdialog';
 
 @Component({
     selector: 'footer',

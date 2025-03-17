@@ -50,7 +50,7 @@ export class DisabledDoc implements OnInit {
 
         typescript: `import { Component, OnInit } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { MultiSelectModule } from 'primeng/multiselect';
+import { MultiSelectModule } from '@shuppert/primeng/multiselect';
 
 interface City {
     name: string,

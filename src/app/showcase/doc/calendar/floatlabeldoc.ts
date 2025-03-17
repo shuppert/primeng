@@ -38,8 +38,8 @@ export class FloatLabelDoc {
 
         typescript: `import { Component } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { CalendarModule } from 'primeng/calendar';
-import { FloatLabelModule } from 'primeng/floatlabel';
+import { CalendarModule } from '@shuppert/primeng/calendar';
+import { FloatLabelModule } from '@shuppert/primeng/floatlabel';
 
 @Component({
     selector: 'calendar-float-label-demo',

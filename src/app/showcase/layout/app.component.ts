@@ -3,7 +3,7 @@ import {} from '@angular/common/http';
 import { Component, Inject, OnInit, PLATFORM_ID, Renderer2, afterNextRender } from '@angular/core';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { NavigationEnd, Router, RouterOutlet } from '@angular/router';
-import { PrimeNGConfig } from 'primeng/api';
+import { PrimeNGConfig } from '@shuppert/primeng/api';
 import { LandingComponent } from '@pages/landing/landing.component';
 import { AppConfigService } from '@service/appconfigservice';
 import { CarService } from '@service/carservice';

@@ -42,7 +42,7 @@ export class ElementDoc {
     </div>
 </div>`,
         typescript: `import { Component } from '@angular/core';
-import { ScrollTopModule } from 'primeng/scrolltop';
+import { ScrollTopModule } from '@shuppert/primeng/scrolltop';
 
 @Component({
     selector: 'scroll-top-element-demo',

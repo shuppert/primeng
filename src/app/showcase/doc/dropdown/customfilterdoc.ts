@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Code } from '@domain/code';
-import { DropdownFilterOptions } from 'primeng/dropdown';
+import { DropdownFilterOptions } from '@shuppert/primeng/dropdown';
 
 interface City {
     name: string;
@@ -162,9 +162,9 @@ export class CustomFilterDoc implements OnInit {
 </div>`,
 
         typescript: `import { Component, OnInit } from '@angular/core';
-import { DropdownFilterOptions } from 'primeng/dropdown';
+import { DropdownFilterOptions } from '@shuppert/primeng/dropdown';
 import { FormsModule } from '@angular/forms';
-import { DropdownModule } from 'primeng/dropdown';
+import { DropdownModule } from '@shuppert/primeng/dropdown';
 
 interface City {
     name: string;

@@ -40,9 +40,9 @@ export class FloatlabelDoc {
 </div>`,
 
         typescript: `import { Component } from '@angular/core';
-import { InputTextareaModule } from 'primeng/inputtextarea';
+import { InputTextareaModule } from '@shuppert/primeng/inputtextarea';
 import { FormsModule } from '@angular/forms';
-import { FloatLabelModule } from 'primeng/floatlabel';
+import { FloatLabelModule } from '@shuppert/primeng/floatlabel';
 
 @Component({
     selector: ': 'input-textarea-floatlabel-demo',

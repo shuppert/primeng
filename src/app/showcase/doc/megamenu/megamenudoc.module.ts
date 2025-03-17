@@ -8,11 +8,11 @@ import { BasicDoc } from './basicdoc';
 import { StyleDoc } from './styledoc';
 import { TemplateDoc } from './templatedoc';
 import { VerticalDoc } from './verticaldoc';
-import { MegaMenuModule } from 'primeng/megamenu';
-import { InputTextModule } from 'primeng/inputtext';
-import { ButtonModule } from 'primeng/button';
+import { MegaMenuModule } from '@shuppert/primeng/megamenu';
+import { InputTextModule } from '@shuppert/primeng/inputtext';
+import { ButtonModule } from '@shuppert/primeng/button';
 import { AccessibilityDoc } from './accessibilitydoc';
-import { AvatarModule } from 'primeng/avatar';
+import { AvatarModule } from '@shuppert/primeng/avatar';
 import { CommandDoc } from './commanddoc';
 import { RouterDoc } from './routerdoc';
 

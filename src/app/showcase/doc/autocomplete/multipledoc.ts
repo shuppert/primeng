@@ -48,7 +48,7 @@ export class MultipleDoc {
 
         typescript: `import { Component } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { AutoCompleteModule } from 'primeng/autocomplete';
+import { AutoCompleteModule } from '@shuppert/primeng/autocomplete';
 
 interface AutoCompleteCompleteEvent {
     originalEvent: Event;

@@ -54,8 +54,8 @@ export class FloatLabelDoc {
         typescript: `import { Component } from '@angular/core';
 import { NodeService } from '@service/nodeservice';
 import { FormsModule } from '@angular/forms';
-import { TreeSelectModule } from 'primeng/treeselect';
-import { FloatLabelModule } from 'primeng/floatlabel';
+import { TreeSelectModule } from '@shuppert/primeng/treeselect';
+import { FloatLabelModule } from '@shuppert/primeng/floatlabel';
 
 @Component({
     selector: 'tree-select-floatlabel-demo',

@@ -133,9 +133,9 @@ export class VerticalDoc implements OnInit {
         typescript: `import { Component, OnInit } from '@angular/core';
 import { Product } from '@domain/product';
 import { ProductService } from '@service/productservice';
-import { CarouselModule } from 'primeng/carousel';
-import { ButtonModule } from 'primeng/button';
-import { TagModule } from 'primeng/tag';
+import { CarouselModule } from '@shuppert/primeng/carousel';
+import { ButtonModule } from '@shuppert/primeng/button';
+import { TagModule } from '@shuppert/primeng/tag';
 
 @Component({
     selector: 'carousel-vertical-demo',

@@ -1,7 +1,7 @@
 import { Component, OnInit, ViewChild } from '@angular/core';
-import { MenuItem, MessageService } from 'primeng/api';
+import { MenuItem, MessageService } from '@shuppert/primeng/api';
 import { Code } from '@domain/code';
-import { ContextMenu } from 'primeng/contextmenu';
+import { ContextMenu } from '@shuppert/primeng/contextmenu';
 
 interface Users {
     id: number;
@@ -190,12 +190,12 @@ export class CommandDoc implements OnInit {
 </div>`,
 
         typescript: `import { Component, OnInit, ViewChild } from '@angular/core';
-import { ContextMenu } from 'primeng/contextmenu';
-import { MenuItem, MessageService } from 'primeng/api';
-import { ToastModule } from 'primeng/toast';
-import { ContextMenuModule } from 'primeng/contextmenu';
+import { ContextMenu } from '@shuppert/primeng/contextmenu';
+import { MenuItem, MessageService } from '@shuppert/primeng/api';
+import { ToastModule } from '@shuppert/primeng/toast';
+import { ContextMenuModule } from '@shuppert/primeng/contextmenu';
 import { CommonModule } from '@angular/common';
-import { TagModule } from 'primeng/tag';
+import { TagModule } from '@shuppert/primeng/tag';
 
 interface Users {
     id: number;

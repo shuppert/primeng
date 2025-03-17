@@ -121,9 +121,9 @@ export class TemplateDoc {
 </div>`,
 
         typescript: `import { Component } from '@angular/core';
-import { InputIconModule } from 'primeng/inputicon';
-import { IconFieldModule } from 'primeng/iconfield';
-import { InputTextModule } from 'primeng/inputtext';
+import { InputIconModule } from '@shuppert/primeng/inputicon';
+import { IconFieldModule } from '@shuppert/primeng/iconfield';
+import { InputTextModule } from '@shuppert/primeng/inputtext';
 import { FormsModule } from '@angular/forms';
 
 @Component({

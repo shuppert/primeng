@@ -207,9 +207,9 @@ export class FrozenRowsDoc {
         typescript: `import { Component, OnInit } from '@angular/core';
 import { Customer } from '@domain/customer';
 import { CustomerService } from '@service/customerservice';
-import { TableModule } from 'primeng/table';
-import { ButtonModule } from 'primeng/button';
-import { RippleModule } from 'primeng/ripple';
+import { TableModule } from '@shuppert/primeng/table';
+import { ButtonModule } from '@shuppert/primeng/button';
+import { RippleModule } from '@shuppert/primeng/ripple';
 import { HttpClientModule } from '@angular/common/http';
 
 @Component({

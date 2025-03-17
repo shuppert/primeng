@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { MenuItem } from 'primeng/api';
+import { MenuItem } from '@shuppert/primeng/api';
 import { Code } from '@domain/code';
 
 @Component({
@@ -98,9 +98,9 @@ export class BasicDoc implements OnInit {
 </div>`,
 
         typescript: `import { Component, OnInit } from '@angular/core';
-import { MenuItem } from 'primeng/api';
-import { DockModule } from 'primeng/dock';
-import { RadioButtonModule } from 'primeng/radiobutton';
+import { MenuItem } from '@shuppert/primeng/api';
+import { DockModule } from '@shuppert/primeng/dock';
+import { RadioButtonModule } from '@shuppert/primeng/radiobutton';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 

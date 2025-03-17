@@ -31,7 +31,7 @@ export class ButtonDoc {
         badgeClass="p-badge-info" />
 </div>`,
         typescript: `import { Component } from '@angular/core';
-import { ButtonModule } from 'primeng/button';
+import { ButtonModule } from '@shuppert/primeng/button';
 
 @Component({
     selector: 'badge-button-demo',

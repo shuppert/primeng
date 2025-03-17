@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { BaseIcon } from 'primeng/baseicon';
+import { BaseIcon } from '@shuppert/primeng/baseicon';
 
 @Component({
     selector: 'CaretRightIcon',

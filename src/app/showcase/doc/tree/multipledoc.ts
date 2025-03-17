@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { TreeNode } from 'primeng/api';
+import { TreeNode } from '@shuppert/primeng/api';
 import { Code } from '@domain/code';
 import { NodeService } from '@service/nodeservice';
 
@@ -62,10 +62,10 @@ export class MultipleDoc implements OnInit {
 </div>`,
 
         typescript: `import { Component, OnInit } from '@angular/core';
-import { TreeNode } from 'primeng/api';
+import { TreeNode } from '@shuppert/primeng/api';
 import { NodeService } from '@service/nodeservice';
-import { TreeModule } from 'primeng/tree';
-import { InputSwitchModule } from 'primeng/inputswitch';
+import { TreeModule } from '@shuppert/primeng/tree';
+import { InputSwitchModule } from '@shuppert/primeng/inputswitch';
 import { FormsModule } from '@angular/forms';
 
 @Component({

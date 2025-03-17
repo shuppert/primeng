@@ -63,8 +63,8 @@ export class AdvancedDoc {
 </div>`,
 
         typescript: `import { Component } from '@angular/core';
-import { CardModule } from 'primeng/card';
-import { ButtonModule } from 'primeng/button';
+import { CardModule } from '@shuppert/primeng/card';
+import { ButtonModule } from '@shuppert/primeng/button';
         
 @Component({
     selector: 'card-advanced-demo',

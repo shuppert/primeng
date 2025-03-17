@@ -36,7 +36,7 @@ export class VerticalDoc {
 </div>`,
 
         typescript: `import { Component } from '@angular/core';
-import { MeterGroupModule } from 'primeng/metergroup';
+import { MeterGroupModule } from '@shuppert/primeng/metergroup';
 
 @Component({
     selector: 'meter-group-vertical-demo',

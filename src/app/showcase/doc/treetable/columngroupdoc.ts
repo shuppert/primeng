@@ -1,5 +1,5 @@
 import { ChangeDetectionStrategy, Component } from '@angular/core';
-import { TreeNode } from 'primeng/api';
+import { TreeNode } from '@shuppert/primeng/api';
 import { Code } from '@domain/code';
 
 @Component({
@@ -255,8 +255,8 @@ export class ColumnGroupDoc {
 </div>`,
 
         typescript: `import { Component, OnInit } from '@angular/core';
-import { TreeNode } from 'primeng/api';
-import { TreeTableModule } from 'primeng/treetable';
+import { TreeNode } from '@shuppert/primeng/api';
+import { TreeTableModule } from '@shuppert/primeng/treetable';
 
 @Component({
     selector: 'tree-table-column-group-demo',

@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { FilterMatchMode, FilterService, SelectItem } from 'primeng/api';
+import { FilterMatchMode, FilterService, SelectItem } from '@shuppert/primeng/api';
 import { Car } from '@domain/car';
 import { Code } from '@domain/code';
 import { CarService } from '@service/carservice';
@@ -123,10 +123,10 @@ export class TableIntegrationDoc implements OnInit {
     </p-table>
 </div>`,
         typescript: `import { Component, OnInit } from '@angular/core';
-import { FilterMatchMode, FilterService, SelectItem } from 'primeng/api';
+import { FilterMatchMode, FilterService, SelectItem } from '@shuppert/primeng/api';
 import { Car } from '@domain/car';
 import { CarService } from '@service/carservice';
-import { TableModule } from 'primeng/table';
+import { TableModule } from '@shuppert/primeng/table';
 import { CommonModule } from '@angular/common';
 
 @Component({

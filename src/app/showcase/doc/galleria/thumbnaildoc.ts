@@ -119,8 +119,8 @@ export class ThumbnailDoc implements OnInit {
 </div>`,
         typescript: `import { Component, OnInit } from '@angular/core';
 import { PhotoService } from '@service/photoservice';
-import { GalleriaModule } from 'primeng/galleria';
-import { RadioButtonModule } from 'primeng/radiobutton';
+import { GalleriaModule } from '@shuppert/primeng/galleria';
+import { RadioButtonModule } from '@shuppert/primeng/radiobutton';
 import { FormsModule } from '@angular/forms';
 
 @Component({

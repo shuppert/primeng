@@ -78,7 +78,7 @@ export class BasicDoc {
 </div>`,
 
         typescript: `import { Component } from '@angular/core';
-import { DividerModule } from 'primeng/divider';
+import { DividerModule } from '@shuppert/primeng/divider';
 
 @Component({
     selector: 'divider-basic-demo',

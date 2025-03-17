@@ -125,8 +125,8 @@ export class VerticalDoc {
 </div>`,
 
         typescript: `import { Component } from '@angular/core';
-import { StepperModule } from 'primeng/stepper';
-import { ButtonModule } from 'primeng/button';
+import { StepperModule } from '@shuppert/primeng/stepper';
+import { ButtonModule } from '@shuppert/primeng/button';
         
 @Component({
     selector: 'stepper-vertical-demo',

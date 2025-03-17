@@ -98,7 +98,7 @@ export class IconDoc {
 </div>`,
 
         typescript: `import { Component } from '@angular/core';
-import { CalendarModule } from 'primeng/calendar';
+import { CalendarModule } from '@shuppert/primeng/calendar';
 import { FormsModule } from '@angular/forms';
 
 @Component({

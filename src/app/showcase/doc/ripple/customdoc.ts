@@ -32,7 +32,7 @@ export class CustomDoc {
     </div>
 </div>`,
         typescript: `import { Component } from '@angular/core';
-import { RippleModule } from 'primeng/ripple';
+import { RippleModule } from '@shuppert/primeng/ripple';
 
 @Component({
     selector: 'ripple-custom-demo',

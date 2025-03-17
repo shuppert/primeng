@@ -29,18 +29,18 @@ import {
     booleanAttribute,
     numberAttribute
 } from '@angular/core';
-import { PrimeNGConfig, PrimeTemplate, SharedModule } from 'primeng/api';
-import { DomHandler } from 'primeng/dom';
-import { ChevronLeftIcon } from 'primeng/icons/chevronleft';
-import { ChevronRightIcon } from 'primeng/icons/chevronright';
-import { TimesIcon } from 'primeng/icons/times';
-import { WindowMaximizeIcon } from 'primeng/icons/windowmaximize';
-import { WindowMinimizeIcon } from 'primeng/icons/windowminimize';
-import { RippleModule } from 'primeng/ripple';
-import { VoidListener } from 'primeng/ts-helpers';
-import { UniqueComponentId, ZIndexUtils } from 'primeng/utils';
+import { PrimeNGConfig, PrimeTemplate, SharedModule } from '@shuppert/primeng/api';
+import { DomHandler } from '@shuppert/primeng/dom';
+import { ChevronLeftIcon } from '@shuppert/primeng/icons/chevronleft';
+import { ChevronRightIcon } from '@shuppert/primeng/icons/chevronright';
+import { TimesIcon } from '@shuppert/primeng/icons/times';
+import { WindowMaximizeIcon } from '@shuppert/primeng/icons/windowmaximize';
+import { WindowMinimizeIcon } from '@shuppert/primeng/icons/windowminimize';
+import { RippleModule } from '@shuppert/primeng/ripple';
+import { VoidListener } from '@shuppert/primeng/ts-helpers';
+import { UniqueComponentId, ZIndexUtils } from '@shuppert/primeng/utils';
 import { GalleriaResponsiveOptions } from './galleria.interface';
-import { FocusTrapModule } from 'primeng/focustrap';
+import { FocusTrapModule } from '@shuppert/primeng/focustrap';
 /**
  * Galleria is an advanced content gallery component.
  * @group Components

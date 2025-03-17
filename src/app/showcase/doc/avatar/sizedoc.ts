@@ -23,7 +23,7 @@ export class SizeDoc {
     <p-avatar label="T" size="xlarge" />
 </div>`,
         typescript: `import { Component } from '@angular/core';
-import { AvatarModule } from 'primeng/avatar';
+import { AvatarModule } from '@shuppert/primeng/avatar';
 
 @Component({
     selector: 'avatar-size-demo',

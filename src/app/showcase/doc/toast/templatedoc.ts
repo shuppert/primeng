@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { MessageService } from 'primeng/api';
+import { MessageService } from '@shuppert/primeng/api';
 import { Code } from '@domain/code';
 
 @Component({
@@ -99,11 +99,11 @@ export class TemplateDoc {
     <p-button pRipple (click)="showConfirm()" label="View" />
 </div>`,
         typescript: `import { Component } from '@angular/core';
-import { MessageService } from 'primeng/api';
-import { ToastModule } from 'primeng/toast';
-import { ButtonModule } from 'primeng/button';
-import { RippleModule } from 'primeng/ripple';
-import { AvatarModule } from 'primeng/avatar';
+import { MessageService } from '@shuppert/primeng/api';
+import { ToastModule } from '@shuppert/primeng/toast';
+import { ButtonModule } from '@shuppert/primeng/button';
+import { RippleModule } from '@shuppert/primeng/ripple';
+import { AvatarModule } from '@shuppert/primeng/avatar';
 
 @Component({
     selector: 'toast-template-demo',

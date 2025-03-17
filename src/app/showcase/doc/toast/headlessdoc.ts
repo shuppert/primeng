@@ -1,5 +1,5 @@
 import { ChangeDetectorRef, Component } from '@angular/core';
-import { MessageService } from 'primeng/api';
+import { MessageService } from '@shuppert/primeng/api';
 import { Code } from '@domain/code';
 
 @Component({
@@ -157,11 +157,11 @@ export class HeadlessDoc {
     <p-button pRipple (click)="showConfirm()" label="Confirm" />
 </div>`,
         typescript: `import { ChangeDetectorRef, Component } from '@angular/core';
-import { MessageService } from 'primeng/api';
-import { ToastModule } from 'primeng/toast';
-import { ButtonModule } from 'primeng/button';
-import { RippleModule } from 'primeng/ripple';
-import { ProgressBarModule } from 'primeng/progressbar';
+import { MessageService } from '@shuppert/primeng/api';
+import { ToastModule } from '@shuppert/primeng/toast';
+import { ButtonModule } from '@shuppert/primeng/button';
+import { RippleModule } from '@shuppert/primeng/ripple';
+import { ProgressBarModule } from '@shuppert/primeng/progressbar';
 
 @Component({
     selector: 'toast-headless-demo',

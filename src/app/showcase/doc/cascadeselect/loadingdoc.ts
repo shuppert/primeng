@@ -29,7 +29,7 @@ export class LoadingDoc {
 
         typescript: `import { Component } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { CascadeSelectModule } from 'primeng/cascadeselect';
+import { CascadeSelectModule } from '@shuppert/primeng/cascadeselect';
 
 @Component({
     selector: 'cascade-select-loading-demo',

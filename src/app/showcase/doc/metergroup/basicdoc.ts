@@ -24,7 +24,7 @@ export class BasicDoc {
 </div>`,
 
         typescript: `import { Component } from '@angular/core';
-import { MeterGroupModule } from 'primeng/metergroup';
+import { MeterGroupModule } from '@shuppert/primeng/metergroup';
 
 @Component({
     selector: 'meter-group-basic-demo',

@@ -97,9 +97,9 @@ export class TemplateDoc {
 </div>`,
 
         typescript: `import { Component } from '@angular/core';
-import { ToolbarModule } from 'primeng/toolbar';
-import { AvatarModule } from 'primeng/avatar';
-import { SharedModule } from 'primeng/api';
+import { ToolbarModule } from '@shuppert/primeng/toolbar';
+import { AvatarModule } from '@shuppert/primeng/avatar';
+import { SharedModule } from '@shuppert/primeng/api';
 
 @Component({
     selector: 'toolbar-template-demo',

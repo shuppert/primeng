@@ -169,9 +169,9 @@ export class ResponsiveStackDoc {
         typescript: `import { Component, OnInit } from '@angular/core';
 import { Product } from '@domain/product';
 import { ProductService } from '@service/productservice';
-import { TableModule } from 'primeng/table';
-import { TagModule } from 'primeng/tag';
-import { RatingModule } from 'primeng/rating';
+import { TableModule } from '@shuppert/primeng/table';
+import { TagModule } from '@shuppert/primeng/tag';
+import { RatingModule } from '@shuppert/primeng/rating';
 import { CommonModule } from '@angular/common';
 
 interface Column {

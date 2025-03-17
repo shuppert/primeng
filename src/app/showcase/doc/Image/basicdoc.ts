@@ -28,7 +28,7 @@ export class BasicDoc {
 </div>`,
 
         typescript: `import { Component } from '@angular/core';
-import { ImageModule } from 'primeng/image';
+import { ImageModule } from '@shuppert/primeng/image';
 
 @Component({
     selector: 'image-basic-demo',

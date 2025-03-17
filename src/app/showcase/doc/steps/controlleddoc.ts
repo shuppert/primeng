@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { MenuItem } from 'primeng/api';
+import { MenuItem } from '@shuppert/primeng/api';
 import { Code } from '@domain/code';
 
 @Component({
@@ -86,9 +86,9 @@ export class ControlledDoc implements OnInit {
 </div>`,
 
         typescript: `import { Component, OnInit } from '@angular/core';
-import { MenuItem } from 'primeng/api';
-import { StepsModule } from 'primeng/steps';
-import { ButtonModule } from 'primeng/button';
+import { MenuItem } from '@shuppert/primeng/api';
+import { StepsModule } from '@shuppert/primeng/steps';
+import { ButtonModule } from '@shuppert/primeng/button';
 
 @Component({
     selector: 'steps-controlled-demo',

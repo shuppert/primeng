@@ -148,7 +148,7 @@ export class DelayDoc {
 </div>`,
 
         typescript: `import { Component, OnInit } from '@angular/core';
-import { ScrollerModule } from 'primeng/scroller';
+import { ScrollerModule } from '@shuppert/primeng/scroller';
 
 @Component({
     selector: 'scroller-delay-demo',

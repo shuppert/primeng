@@ -28,7 +28,7 @@ export class MultipleMonthDoc {
 </div>`,
 
         typescript: `import { Component } from '@angular/core';
-import { CalendarModule } from 'primeng/calendar';
+import { CalendarModule } from '@shuppert/primeng/calendar';
 
 @Component({
     selector: 'calendar-multiplemonths-demo',
