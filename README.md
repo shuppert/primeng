@@ -10,3 +10,8 @@
 ### Website
 
 Visit the [PrimeNG Website](https://primeng.org) for general information, demos and documentation.
+
+This is a fork of PrimeNG 17.7.0 that has been updated to Angular 18.  This is not intended to be the latest version but the old/stable version with an upgraded Angular version.
+
+To build use "npm run build:package" script.
+

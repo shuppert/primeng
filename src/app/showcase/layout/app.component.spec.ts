@@ -3,7 +3,7 @@ import { RouterTestingModule } from '@angular/router/testing';
 import { AppComponent } from './app.component';
 import { FormsModule } from '@angular/forms';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { HttpClientModule } from '@angular/common/http';
+import { provideHttpClient, withInterceptorsFromDi } from '@angular/common/http';
 import { AppConfigService } from '@service/appconfigservice';
 import { AppConfigComponent } from './config/app.config.component';
 import { AppFooterComponent } from './footer/app.footer.component';
@@ -15,10 +15,10 @@ import { AutoCompleteModule } from 'primeng/autocomplete';
 describe('AppComponent', () => {
     beforeEach(async(() => {
         TestBed.configureTestingModule({
-            imports: [RouterTestingModule, FormsModule, BrowserAnimationsModule, AutoCompleteModule, HttpClientModule],
-            declarations: [AppComponent, AppConfigComponent, AppTopBarComponent, AppMenuComponent, AppFooterComponent],
-            providers: [JsonService, AppConfigService]
-        }).compileComponents();
+    declarations: [AppComponent, AppConfigComponent, AppTopBarComponent, AppMenuComponent, AppFooterComponent],
+    imports: [RouterTestingModule, FormsModule, BrowserAnimationsModule, AutoCompleteModule],
+    providers: [JsonService, AppConfigService, provideHttpClient(withInterceptorsFromDi())]
+}).compileComponents();
     }));
 
     it('should create the app', async(() => {
